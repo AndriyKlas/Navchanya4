@@ -26,7 +26,6 @@ def count_vowels(text: str) -> int:
     i = i1 + i2
     o = o1 + o2
     count = a + e + y + u + i + o
-    count = int(count)
     return count
 
 
