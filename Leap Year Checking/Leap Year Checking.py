@@ -1,39 +1,37 @@
 #Leap Year Checking
 def is_leap_year(year: int) -> bool:
-    if year == 2004:
-        return True
+
 
     year=str(year)
+
     if len(year)==1 or len(year)==2:
         return False
-    elif not year[2] == '0' and year[3] == '0':
+    if year[2] == '0' and year[3] == '0':
         year = int(year)
-        year = year / 4
+        year = year / 400
         year = str(year)
         if year[-2:] == '.0':
             return True
         else:
             return False
-    elif year[2] == '0' and year[3] == '0':
+    else:
         year=int(year)
-        year=year / 400
+        year=year / 4
         year=str(year)
         if year[-2:] == '.0':
             return True
         else:
             return False
-    else:
-        return False
 
 
 
 
 
 print("Example:")
-print(is_leap_year(2100))
+print(is_leap_year(2008))
 
 # These "asserts" are used for self-checking
-assert is_leap_year(2008) == True
+assert is_leap_year(1608) == True
 assert is_leap_year(2100) == False
 assert is_leap_year(2020) == True
 assert is_leap_year(2021) == False
