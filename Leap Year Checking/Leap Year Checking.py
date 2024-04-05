@@ -1,7 +1,5 @@
 #Leap Year Checking
 def is_leap_year(year: int) -> bool:
-    if year == 1900:
-        return False
     if year == 2004:
         return True
 
@@ -35,7 +33,7 @@ print("Example:")
 print(is_leap_year(2100))
 
 # These "asserts" are used for self-checking
-
+assert is_leap_year(2008) == True
 assert is_leap_year(2100) == False
 assert is_leap_year(2020) == True
 assert is_leap_year(2021) == False
