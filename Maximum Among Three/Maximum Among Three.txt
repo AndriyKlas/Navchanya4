@@ -1,0 +1,2 @@
+Дано три цілі числа, визначте, яке з них найбільше.
+https://py.checkio.org/en/mission/maximum-among-three/
