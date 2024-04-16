@@ -1,0 +1,3 @@
+Спробуйте дізнатися, скільки нулів має дане число в кінці.
+
+https://py.checkio.org/en/mission/end-zeros/

@@ -1,0 +1,4 @@
+Дано два цілих числа nі k, завдання полягає в тому, щоб порахувати,
+скільки чисел від 1 до n(включно) діляться на k.
+
+https://py.checkio.org/en/mission/count-divisibles-in-range-simplified/
