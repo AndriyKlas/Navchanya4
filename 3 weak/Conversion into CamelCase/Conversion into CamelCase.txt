@@ -1,0 +1,6 @@
+Ваша місія полягає в тому, щоб перетворити ім’я функції з формату Python
+наприклад, «my_function_name») у CamelCase («MyFunctionName»),
+де перший символ кожного слова вводиться у верхньому регістрі,
+а всі слова об’єднуються без будь-яких проміжних символів.
+
+https://py.checkio.org/en/mission/conversion-into-camelcase/
