@@ -1,4 +1,4 @@
-def end_zeros(a: int) -> int:
+def end_zeros_by_Andr(a: int) -> int:
     a = str(a)
 
     if '0' in a:
@@ -27,6 +27,18 @@ def end_zeros(a: int) -> int:
             return len(a)
     else:
         return 0
+
+
+def end_zeros(a: int) -> int:
+    str_a = str(a)
+    reverse_a = str_a[::-1]
+    count = 0
+    for symbol in reverse_a:
+        if symbol == '0':
+            count = count + 1
+        else:
+            break
+    return count
 
 
 print("Example:")
