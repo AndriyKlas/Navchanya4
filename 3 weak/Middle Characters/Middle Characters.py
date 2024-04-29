@@ -3,7 +3,7 @@ def middle(text: str) -> str:
     qq=q//2
     aa=qq-1
     if q-qq==qq:
-        return text[qq] and text[aa]
+        return text[aa] + text[qq]
     else:
         return text[qq]
 
