@@ -1,0 +1,5 @@
+Ваша місія полягає в тому, щоб перетворити ім’я функції з CamelCase ("MyFunctionName")
+у формат Python ("my_function_name"), де всі символи пишуться в нижньому регістрі,
+а всі слова об’єднані символом підкреслення "_".
+
+https://py.checkio.org/en/mission/conversion-from-camelcase/
