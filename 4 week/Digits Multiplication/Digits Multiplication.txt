@@ -1,0 +1,4 @@
+Вам дано позитивне число.
+Ваша функція має обчислювати добуток цифр без будь-яких нулів.
+
+https://py.checkio.org/en/mission/digits-multiplication/
